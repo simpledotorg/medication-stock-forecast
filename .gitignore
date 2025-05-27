@@ -1,0 +1,21 @@
+
+# Ignore raw data exports
+/data/*.csv
+
+# Ignore generated outputs
+/outputs/*.csv
+
+# Python virtual environment
+.venv/
+env/
+__pycache__/
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+
+# Python bytecode
+*.pyc
