@@ -46,8 +46,9 @@ medication-stock-forecast/
 ## Usage
 
 1. **Export data from Metabase**  
-   - Run the "Monthly Hypertension Patient-Days by Drug Class for Top 5 UHC Facilities (24→12 Months Ago)" question.  
-   - Export as CSV to `data/metabase_report.csv`.
+   - Open this question in Metabase:  
+     [Monthly Hypertension Patient-Days by Drug Class for top 5 uhc facilities](https://metabase.bd.simple.org/question/1049-monthly-hypertension-patient-days-by-drug-class-for-top-5-uhc-facilities-24-12-months-ago)  
+   - Click **Export → CSV** → save as `data/metabase_report.csv`
 
 2. **Prepare data for Prophet**  
    ```bash
